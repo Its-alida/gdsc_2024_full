@@ -90,7 +90,8 @@ class _PeriodTrackingScreenState extends State<PeriodTrackingScreen> {
       builder: (BuildContext context) {
         return AlertDialog(
           title: const Text('Prediction'),
-          content: const Text('Here is your period prediction for the next month.'),
+          content: const Text('Next cycle in \n 5  days '),
+
           actions: [
             TextButton(
               onPressed: () {
